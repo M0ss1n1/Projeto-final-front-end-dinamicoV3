@@ -1,0 +1,236 @@
+/* Estilos padrão */
+html, body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, blue);
+  background-size: cover;
+  animation: gradientAnimation 10s infinite alternate;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex: 1;
+  margin: 20px;
+}
+
+.container2 {
+  flex: 1;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+#hello {
+  margin: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+form {
+  width: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #50246d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+input,input[type="text"],
+input[type="date"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1d1d1d96;
+  border: 1px solid #8b44bb;
+  padding: 40px;
+  margin: 85px;
+  max-width: 300px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 16px; /* Tamanho da fonte padrão */
+  backdrop-filter: blur(2px); /* Adiciona um desfoque de 5px */
+}
+
+.button {
+  background-color: #50246d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+/* Estilo para os botões dentro das tarefas */
+.save-button, .cancel-button, .complete-button {
+  background-color: #50246d;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px; /* Alterado para 10px para criar mais espaçamento */
+}
+
+.save-button, .cancel-button, .complete-button:hover{
+  background-color: #8b44bb;
+}
+
+.edit-button, .delete-button,.undo-complete-button{
+  background-color: #50246d;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 5px; /* Alterado para 10px para criar mais espaçamento */
+}
+
+/* Estilos responsivos */
+
+/* Estilos para telas menores (celulares e tablets) */
+@media screen and (max-width: 768px) {
+  body {
+    display: block; /* Altera para exibição em bloco em telas menores */
+  }
+
+  .container,
+  .container2 {
+    flex: 1;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+
+  .button {
+    padding: 8px 16px;
+    margin: 5px;
+  }
+
+  li {
+    font-size: 14px; /* Tamanho de fonte menor para telas menores */
+  }
+}
+
+.button {
+  background-color: #50246d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Estilos responsivos */
+
+/* Estilos para telas menores (celulares e tablets) */
+@media screen and (max-width: 768px) {
+  body {
+    display: block; /* Altera para exibição em bloco em telas menores */
+  }
+
+  .container,
+  .container2 {
+    flex: 1;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+
+  .button {
+    padding: 8px 16px;
+    margin: 5px;
+  }
+}
+
+.button {
+  background-color: #50246d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
